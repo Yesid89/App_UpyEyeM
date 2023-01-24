@@ -4,7 +4,7 @@ from machine import Pin
 red = "" #Nombre Red
 password = "" #Clave Red 
 
-#Funcion para conectar wifi
+#Función para conectar wifi
 def conectaWifi ():
       global miRed
       miRed = network.WLAN(network.STA_IF)     
