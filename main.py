@@ -23,7 +23,7 @@ def main():
                 print("Alerta  distancia menor a 50 cm!!! sensor de proximidad en: ", distancia )
                 sleep(50)
     else:
-           print ("Imposible conectar")
+        print ("Imposible conectar")
 
 
 if __name__==("__main__"):
